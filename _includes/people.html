@@ -1,0 +1,47 @@
+<div class="col-md-3">
+    <div class="card sticky">
+        <ul class="list">
+            <li><a href="#staff">Staff</a></li>
+            <li><a href="#facultyfellows">Faculty Fellows</a></li>
+            <li><a href="#studentfellows">Student Fellows</a></li>
+            <li><a href="#collaborators">Collaborators</a></li>
+        </ul>
+    </div>
+</div>
+<div class="col-9">
+        <div class="row" id="staff">
+                <h2 class="col-12 mb-2">Staff</h2>
+    {% for person in site.data.people %}
+    {%if person.type == "staff"%}
+        {% include person-template.html %}
+            {%endif%}
+    {%endfor%}
+</div>
+
+    <div class="row" id="facultyfellows">
+        <h2 class="col-12 mb-2">Faculty Fellow</h2>
+        {% for person in site.data.people %}
+        {%if person.type == "facultyfellow"%}
+        {% include person-template.html %}
+        {%endif%}
+        {%endfor%}
+    </div>
+
+    <div class="row" id="studentfellows">
+        <h2 class="col-12 mb-2">Student Fellows</h2>
+        {% for person in site.data.people %}
+        {%if person.type == "studentfellow"%}
+        {% include person-template.html %}
+        {%endif%}
+        {%endfor%}
+    </div>
+
+    <div class="row" id="collaborators">
+        <h2 class="col-12 mb-2">Collaborator</h2>
+        {% for person in site.data.people %}
+        {%if person.type == "collaborator"%}
+        {% include person-template.html %}
+        {%endif%}
+        {%endfor%}
+    </div>
+</div>

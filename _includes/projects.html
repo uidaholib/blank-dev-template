@@ -1,0 +1,14 @@
+{% for project in site.data.projects %}
+
+<div class="col-sm-6 centered p-3  text-center">
+    <div class="card p-3">
+        <a href="{{project.link}}"><img class="img img-circle" src="{{ project.image }}" height="120px" width="120px" alt="Nelson">
+            <br>
+            <h4><b>{{project.title}}</b></h4>
+        </a>
+        <h5>{{project.description}}<br /></h5>
+
+    </div>
+</div>
+
+{%endfor%}

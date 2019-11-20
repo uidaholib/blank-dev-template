@@ -1,0 +1,25 @@
+personid,type,link,image,lastname,fullname,title,department,year,projectids,project
+becker,staff,https://vivo.nkn.uidaho.edu/vivo/display/n8136,becker.jpg,Becker,Devin Becker,"Director, CDIL",University of Idaho Library,,ctrl;cb;voices;ccc;queered;vpod,CTRL+Shift;CollectionBuilder;Voices of Gay Rodeo;CCC in Idaho;Idaho Queered;Vandal Poem of the Day
+williamson,staff,https://vivo.nkn.uidaho.edu/vivo/display/n43629,williamson.jpg,Williamson,Evan Williamson,Digital Infrastructure Librarian,University of Idaho Library,,cb;hjccc;queered,CollectionBuilder;Historical Japanese Comparitive Ceramics Collection (HJCCC);Idaho Queered
+wikle,staff,https://vivo.nkn.uidaho.edu/vivo/display/n263285,wikle.jpg,Wikle,Olivia Wikle,Digital Initiatives Librarian,University of Idaho Library,,cb;voices;letters,CollectionBuilder;Voices of Gay Rodeo;Letters of Marie Mancini
+eichner,facultyfellow,https://www.uidaho.edu/class/soc-anthro/faculty-and-staff/katrina-eichner,eichner.jpg,Eichner,Katrina Eichner,Assistant Professor,Sociology and Anthropology,2019,,
+fox-amato,facultyfellow,https://vivo.nkn.uidaho.edu/vivo/display/n57612,fox-amato.jpg,Fox-Amato,Matthew Fox-Amato,Assistant Professor,History,2017,,
+james,facultyfellow,http://vivo.nkn.uidaho.edu/individual/pid990076,james.jpg,James,Erin James,Associate Professor,English,2019,,
+levan,facultyfellow,https://vivo.nkn.uidaho.edu/individual/n254299,levan.jpg,Levan,Kristine Levan,Assistant Professor,Sociology & Anthropology,2017,,
+nelson,facultyfellow,https://vivo.nkn.uidaho.edu/vivo/display/pid990186,nelson.jpg,Nelson,Sarah Nelson,Associate Professor,Modern Languages & Cultures,2019,letters,Letters of Marie Mancini
+sowards,facultyfellow,https://vivo.nkn.uidaho.edu/vivo/display/pid990146,sowards.jpg,Sowards,Adam Sowards,Professor,History,2018,,"
+"
+scofield,facultyfellow,https://vivo.nkn.uidaho.edu/individual/n182053,scofield.jpg,Scofield,Rebecca Scofield,Assistant Professor,History,2018,voices,Voices of Gay Rodeo
+turpin,facultyfellow,https://vivo.nkn.uidaho.edu/vivo/display/n42305,turpin.jpg,Turpin,Zackary Turpin,Assistant Professor,English,2019,lostlitlab,Lost Lit Lab
+baldridge,studentfellow,https://palousedh.github.io/symposium/fellows/,baldridge.jpg,Baldridge,Ricky Baldridge,Graduate Fellow,English,2019,,
+campbell,studentfellow,https://palousedh.github.io/symposium/fellows/#campbell,campbell.jpg,Campbell,Renae Campbell,Graduate Fellow,Sociology & Anthropology,2018,hjccc,Historical Japanese Comparitive Ceramics Collection (HJCCC)
+oglesby,studentfellow,http://coreyoglesby.com/,oglesby_new.jpg,Oglesby,Corey Oglesby,Graduate Fellow,English,2017,ctrl;vpod,CTRL+Shift;Vandal Poem of the Day
+robertson,studentfellow,,robertson.jpg,Robertson,Rylee Robertson,Undergraduate Fellow,Business,2019,,
+rodriguez,studentfellow,https://uidaho.maps.arcgis.com/apps/Cascade/index.html?appid=a459d05f5e2c4b5c9cd9e535e0c4afaa,rodriguez.jpg,Rodriguez,Denessy Rodriguez,Undergraduate Fellow,Sociology & Anthropology,2018,closure;syrpoj,Closure of Syringa;Syringa Project
+stokes,studentfellow,www.arcgis.com/apps/Cascade/index.html?appid=cd897eb9ea4c4544af3e1972ec924745,stokes.jpg,Stokes,Kit Stokes,Library Graduate Fellow,English,2019,,
+westerfield,studentfellow,http://www.laurenwesterfield.com/,westerfield.png,Westerfield,Lauren Westerfield,Graduate Fellow,English,2017,ctrl,CTRL+Shift
+bilderback,collaborator,https://vivo.nkn.uidaho.edu/vivo/display/pid990193,bilderback.jpg,Bilderback,Barry Bilderback,Associate Professor,Music,,,
+frey,collaborator,https://vivo.nkn.uidaho.edu/vivo/display/pid990249,frey.jpg,Frey,Rodney Frey,Professor,Sociology & Anthropology,,turning,Turning of the Wheel
+godfrey,collaborator,https://vivo.nkn.uidaho.edu/vivo/display/n1633553470,godfrey.jpg,Godfrey,Bruce Godfrey,GIS Librarian,University of Idaho Library,,,
+hart,collaborator,https://www.uidaho.edu/class/jamm/faculty-staff/patricia-hart,hart.jpg,Hart,Patricia Hart,Associate Professor,Journalism and Mass Media,,ccc,CCC in Idaho Collection
+teague,collaborator,https://vivo.nkn.uidaho.edu/vivo/display/n46345,teague.jpg,Teague,Alexandra Teague,Assistant Professor,English,,vpod,Vandal Poem of the Day
