@@ -9,14 +9,21 @@
 .navbar { 
     transition: 500ms ease;
     background: #343a40;
+   
 }
 
 /* Set nav background color on scroll */
 .navbar.scrolled {
-    background:rgba(52, 58, 64, 0.8);
+    background:rgba(52, 58, 64, 0.9);
+    height:50px;
 }
 
 /* Remove Idaho logo on scroll */
 .navbar.scrolled .lib-logo-lg {
     display: none;
+}
+
+/* Remove Idaho logo on scroll */
+.navbar.scrolled .cdil-logo {
+    height: 45px;
 }
