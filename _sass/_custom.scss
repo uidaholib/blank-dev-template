@@ -3,3 +3,20 @@
     border-radius: 50%;
 
 }
+
+/* nav */
+/* Set nav background color and control transition to transparent */
+.navbar { 
+    transition: 500ms ease;
+    background: #343a40;
+}
+
+/* Set nav background color on scroll */
+.navbar.scrolled {
+    background:rgba(52, 58, 64, 0.8);
+}
+
+/* Remove Idaho logo on scroll */
+.navbar.scrolled .lib-logo-lg {
+    display: none;
+}
