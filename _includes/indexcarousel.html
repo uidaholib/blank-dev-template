@@ -19,7 +19,9 @@
     left: 40%;
 }
     </style>
-    <div id="index-carousel" class="carousel slide" data-ride="carousel" data-interval="25000" data-keyboard="true">
+
+    <h2 class="ml-4 p-4 h1 border-bottom"> Projects </h2>
+    <div id="index-carousel" class="carousel slide mt-4" data-ride="carousel" data-interval="25000" data-keyboard="true">
         <ol class="carousel-indicators">
             {% for slide in site.data.projects %}
             <li data-target="#index-carousel" data-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"{% endif %}></li>
@@ -43,7 +45,7 @@
                     </div>
                     <div class="col-md-4 ">
                         <p>
-                        <a class="btn btn-outline-primary" href="{{ slide.link }}">Go to Project Site</a>
+                        <a class="btn btn-outline-primary" href="projects.html#{{ slide.projectid }}">More on the project</a>
                         {% if slide.link2 %}
                         <a class="btn btn-outline-clearwater mr-2 mt-md-2 mt-sm-0" href="{{ slide.link2 }}">{{ slide.link2-text }}</a>{% endif %}
                         </p>

@@ -1,14 +1,25 @@
-<div class="col-md-3">
-    <div class="card sticky">
-        <ul class="list">
-            <li><a href="#staff">Staff</a></li>
-            <li><a href="#facultyfellows">Faculty Fellows</a></li>
-            <li><a href="#studentfellows">Student Fellows</a></li>
-            <li><a href="#collaborators">Collaborators</a></li>
-        </ul>
-    </div>
-</div>
-<div class="col-9">
+<style>
+html {
+    scroll-behavior: smooth;
+}
+
+</style>
+<div class="container position-relative" id="content">
+        <div class="row h-100 mt-5">
+            <aside class="col-md-3 bg-light" id="left">
+                <div class="mt-5 mb-3 sticky-top" id="side" style="padding-top:140px;">
+                    <ul class="nav flex-md-column flex-row list-group" id="sidenav">
+                        <li class="nav-item list-group-item"><a href="#staff" class="nav-link active pl-0">Staff</a></li>
+                        <li class="nav-item list-group-item"><a href="#facultyfellows" class="nav-link pl-0">Faculty Fellows</a></li>
+                        <li class="nav-item list-group-item"><a href="#studentfellows" class="nav-link pl-0">Student Fellows</a></li>
+                        <li class="nav-item list-group-item"><a href="#collaborators" class="nav-link pl-0">Collaborators</a></li>
+                    </ul>
+                </div>
+            </aside>
+            <main class="col py-5">
+                <div class="row position-relative">
+                    <div class="col">
+<div class="col">
         <div class="row" id="staff">
                 <h2 class="col-12 mb-2">Staff</h2>
     {% for person in site.data.people %}
@@ -18,8 +29,8 @@
     {%endfor%}
 </div>
 
-    <div class="row" id="facultyfellows">
-        <h2 class="col-12 mb-2">Faculty Fellow</h2>
+    <div class="row" id="facultyfellows" style="padding-top:140px;">
+        <h2 class="col-12 mb-2">Faculty Fellows</h2>
         {% for person in site.data.people %}
         {%if person.type == "facultyfellow"%}
         {% include person-template.html %}
@@ -27,7 +38,7 @@
         {%endfor%}
     </div>
 
-    <div class="row" id="studentfellows">
+    <div class="row" id="studentfellows" style="padding-top:140px;">
         <h2 class="col-12 mb-2">Student Fellows</h2>
         {% for person in site.data.people %}
         {%if person.type == "studentfellow"%}
@@ -36,7 +47,7 @@
         {%endfor%}
     </div>
 
-    <div class="row" id="collaborators">
+    <div class="row" id="collaborators" style="padding-top:140px;">
         <h2 class="col-12 mb-2">Collaborator</h2>
         {% for person in site.data.people %}
         {%if person.type == "collaborator"%}

@@ -1,6 +1,6 @@
 {% for project in site.data.projects %}
 
-<div class="col-12 centered p-3 my-4 card bg-light">
+<div class="col-12 centered p-3 my-4 card bg-light" id="{{ project.projectid }}">
     <div class="row p-3">
         <div class="col-md-6">
             <a href="{{project.link}}"><img class="img-fluid" src="{{ project.image }}" alt="{{project.title}} image" style="max-height:400px;">
